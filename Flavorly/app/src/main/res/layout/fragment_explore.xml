@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Explore">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/expor_bg"
+            android:scaleType="centerCrop"
+            android:alpha="0.5"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="90dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/My_Secondary"
+                android:text="Lunch"
+                android:textColor="@color/My_primary"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="150dp" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/My_Secondary"
+                android:text="Breakfast"
+                android:textColor="@color/My_primary"
+                tools:layout_editor_absoluteY="150dp" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/My_Secondary"
+                android:text="Dinner"
+                android:textColor="@color/My_primary"
+                tools:layout_editor_absoluteY="310dp" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/My_Secondary"
+                android:text="Quick recipes"
+                android:textColor="@color/My_primary"
+                tools:layout_editor_absoluteY="390dp" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:backgroundTint="@color/My_Secondary"
+                android:text="Healthy meals"
+                android:textColor="@color/My_primary"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="390dp" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:backgroundTint="@color/My_Secondary"
+                android:text="Dessert"
+                android:textColor="@color/My_primary"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="310dp" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:backgroundTint="@color/My_Secondary"
+                android:text="juice"
+                android:textColor="@color/My_primary"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="230dp" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:backgroundTint="@color/My_Secondary"
+                android:text="Cake"
+                android:textColor="@color/My_primary"
+                tools:layout_editor_absoluteY="230dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/poppins"
+            android:text="Explore menus"
+            android:textColor="@color/My_Accent"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
