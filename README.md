@@ -10,7 +10,7 @@
 
 | Home Screen | Recipe Details | Profile |
 |:---:|:---:|:---:|
-| <img src="home.png" width="200"/> | <img src="recipe.png" width="200"/> | <img src="profile.png" width="200"/> |
+| <img src="screenshots/home.png" width="200"/> | <img src="screenshots/recipe.png" width="200"/> | <img src="screenshots/profile.png" width="200"/> |
 
 ## ✨ Features
 
